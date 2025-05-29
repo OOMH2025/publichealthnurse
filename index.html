@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>産業保健看護の羅針盤</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
     <style>
         body {
             font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
@@ -181,6 +182,73 @@
             text-align: center;
             padding: 30px;
             font-size: 0.9em;
+        }
+        
+        /* モバイル対応 - 元のデザインを維持しながら最小限の調整 */
+        @media (max-width: 768px) {
+            .book-container {
+                margin: 10px;
+                border-radius: 10px;
+            }
+            
+            .cover {
+                padding: 60px 30px;
+            }
+            
+            .cover h1 {
+                font-size: 2.2em;
+            }
+            
+            .cover .subtitle {
+                font-size: 1em;
+            }
+            
+            .toc {
+                padding: 30px 25px;
+            }
+            
+            .section {
+                padding: 30px 25px;
+            }
+            
+            .section h2 {
+                font-size: 1.7em;
+            }
+            
+            .section h3 {
+                font-size: 1.3em;
+                padding: 12px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .book-container {
+                margin: 5px;
+            }
+            
+            .cover {
+                padding: 50px 20px;
+            }
+            
+            .cover h1 {
+                font-size: 1.9em;
+            }
+            
+            .toc {
+                padding: 25px 20px;
+            }
+            
+            .section {
+                padding: 25px 20px;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+            
+            .section h3 {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
